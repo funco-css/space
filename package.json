@@ -1,6 +1,6 @@
 {
   "name": "blank-css-space",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "blank.css space utilities for consistent layouts",
   "main": "index.js",
   "style": "index.css",
