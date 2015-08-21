@@ -1,0 +1,33 @@
+{
+  "name": "blank-css-space",
+  "version": "1.0.0",
+  "description": "blank.css space utilities for consistent layouts",
+  "main": "index.js",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blank-css/space.git"
+  },
+  "keywords": [
+    "css",
+    "css",
+    "utilities",
+    "css",
+    "framework",
+    "suit"
+  ],
+  "author": "Vince Speelman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blank-css/space/issues"
+  },
+  "homepage": "https://github.com/blank-css/space#readme"
+}

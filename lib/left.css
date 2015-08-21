@@ -1,0 +1,421 @@
+/* LEFT */
+
+/* none */
+.blank-u-mgLn {
+	margin-left: var(--blank-space-n) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-mgLn {
+		margin-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-mgLn {
+		margin-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-mgLn {
+		margin-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-mgLn {
+		margin-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-mgLn {
+		margin-left: var(--blank-space-n) !important;
+	}
+}
+
+/* bb */
+.blank-u-mgLbb {
+	margin-left: var(--blank-space-bb) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-mgLbb {
+		margin-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-mgLbb {
+		margin-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-mgLbb {
+		margin-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-mgLbb {
+		margin-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-mgLbb {
+		margin-left: var(--blank-space-bb) !important;
+	}
+}
+
+/* sm */
+.blank-u-mgLsm {
+	margin-left: var(--blank-space-sm) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-mgLsm {
+		margin-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-mgLsm {
+		margin-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-mgLsm {
+		margin-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-mgLsm {
+		margin-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-mgLsm {
+		margin-left: var(--blank-space-sm) !important;
+	}
+}
+
+/* md */
+.blank-u-mgLmd {
+	margin-left: var(--blank-space-md) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-mgLmd {
+		margin-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-mgLmd {
+		margin-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-mgLmd {
+		margin-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-mgLmd {
+		margin-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-mgLmd {
+		margin-left: var(--blank-space-md) !important;
+	}
+}
+
+/* lg */
+.blank-u-mgLlg {
+	margin-left: var(--blank-space-lg) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-mgLlg {
+		margin-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-mgLlg {
+		margin-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-mgLlg {
+		margin-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-mgLlg {
+		margin-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-mgLlg {
+		margin-left: var(--blank-space-lg) !important;
+	}
+}
+
+/* gg */
+.blank-u-mgLgg {
+	margin-left: var(--blank-space-gg) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-mgLgg {
+		margin-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-mgLgg {
+		margin-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-mgLgg {
+		margin-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-mgLgg {
+		margin-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-mgLgg {
+		margin-left: var(--blank-space-gg) !important;
+	}
+}
+
+/* none */
+.blank-u-pdLn {
+	padding-left: var(--blank-space-n) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-pdLn {
+		padding-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-pdLn {
+		padding-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-pdLn {
+		padding-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-pdLn {
+		padding-left: var(--blank-space-n) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-pdLn {
+		padding-left: var(--blank-space-n) !important;
+	}
+}
+
+/* bb */
+.blank-u-pdLbb {
+	padding-left: var(--blank-space-bb) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-pdLbb {
+		padding-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-pdLbb {
+		padding-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-pdLbb {
+		padding-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-pdLbb {
+		padding-left: var(--blank-space-bb) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-pdLbb {
+		padding-left: var(--blank-space-bb) !important;
+	}
+}
+
+/* sm */
+.blank-u-pdLsm {
+	padding-left: var(--blank-space-sm) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-pdLsm {
+		padding-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-pdLsm {
+		padding-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-pdLsm {
+		padding-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-pdLsm {
+		padding-left: var(--blank-space-sm) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-pdLsm {
+		padding-left: var(--blank-space-sm) !important;
+	}
+}
+
+/* md */
+.blank-u-pdLmd {
+	padding-left: var(--blank-space-md) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-pdLmd {
+		padding-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-pdLmd {
+		padding-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-pdLmd {
+		padding-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-pdLmd {
+		padding-left: var(--blank-space-md) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-pdLmd {
+		padding-left: var(--blank-space-md) !important;
+	}
+}
+
+/* lg */
+.blank-u-pdLlg {
+	padding-left: var(--blank-space-lg) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-pdLlg {
+		padding-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-pdLlg {
+		padding-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-pdLlg {
+		padding-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-pdLlg {
+		padding-left: var(--blank-space-lg) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-pdLlg {
+		padding-left: var(--blank-space-lg) !important;
+	}
+}
+
+/* gg */
+.blank-u-pdLgg {
+	padding-left: var(--blank-space-gg) !important;
+}
+
+@media(--bb) {
+	.blank-u-bb-pdLgg {
+		padding-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--sm) {
+	.blank-u-sm-pdLgg {
+		padding-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--md) {
+	.blank-u-md-pdLgg {
+		padding-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--lg) {
+	.blank-u-lg-pdLgg {
+		padding-left: var(--blank-space-gg) !important;
+	}
+}
+
+@media(--gg) {
+	.blank-u-gg-pdLgg {
+		padding-left: var(--blank-space-gg) !important;
+	}
+}
