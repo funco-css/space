@@ -35,5 +35,10 @@
     "postcss-cssnext": "^2.5.2",
     "postcss-for": "git+https://github.com/vinspee/postcss-for",
     "postcss-import": "^8.1.0"
+  },
+  "optionalDependencies": {
+    "postcss-cssnext": "^2.5.2",
+    "postcss-for": "git+https://github.com/vinspee/postcss-for",
+    "postcss-import": "^8.1.0"
   }
 }
