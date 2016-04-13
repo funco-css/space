@@ -1,0 +1,85 @@
+.mg\/t\/n {
+	margin-top: 0;
+}
+
+@for $i from 1 to 10 {
+	.mg\/t\/$i {
+		margin-top: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.mg\/t\/n\@xs {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@xs {
+			margin-top: var(--funco-space-$i);
+		}
+		.mg\/t\/$i\@xs {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.mg\/t\/n\@sm {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@sm {
+			margin-top: var(--funco-space-$i);
+		}
+		.mg\/t\/$i\@sm {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.mg\/t\/n\@md {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@md {
+			margin-top: var(--funco-space-$i);
+		}
+		.mg\/t\/$i\@md {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.mg\/t\/n\@lg {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@lg {
+			margin-top: var(--funco-space-$i);
+		}
+		.mg\/t\/$i\@lg {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.mg\/t\/n\@xl {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@xl {
+			margin-top: var(--funco-space-$i);
+		}
+		.mg\/t\/$i\@xl {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+

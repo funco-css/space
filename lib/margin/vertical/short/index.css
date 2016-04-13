@@ -1,0 +1,81 @@
+.mg\/v\/n {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+@for $i from 0 to 10 {
+	.mg\/v\/$i {
+		margin-bottom: var(--funco-space-$i);
+		margin-top: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.mg\/v\/n\@xs {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.mg\/v\/$i\@xs {
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.mg\/v\/n\@sm {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.mg\/v\/$i\@sm {
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.mg\/v\/n\@md {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.mg\/v\/$i\@md {
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.mg\/v\/n\@lg {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.mg\/v\/$i\@lg {
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.mg\/v\/n\@xl {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.mg\/v\/$i\@xl {
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}

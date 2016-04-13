@@ -1,0 +1,69 @@
+.mg\/a\/n {
+	margin: 0;
+}
+
+@for $i from -5 to 10 {
+	.mg\/a\/$i {
+		margin: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.mg\/a\/n\@xs {
+		margin: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/a\/$i\@xs {
+			margin: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.mg\/a\/n\@sm {
+		margin: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/a\/$i\@sm {
+			margin: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.mg\/a\/n\@md {
+		margin: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/a\/$i\@md {
+			margin: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.mg\/a\/n\@lg {
+		margin: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/a\/$i\@lg {
+			margin: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.mg\/a\/n\@xl {
+		margin: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/a\/$i\@xl {
+			margin: var(--funco-space-$i);
+		}
+	}
+}

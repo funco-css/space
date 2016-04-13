@@ -1,0 +1,81 @@
+.margin\/horizontal\/none {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@for $i from -5 to 10 {
+	.margin\/horizontal\/$i {
+		margin-left: var(--funco-space-$i);
+		margin-right: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.margin\/horizontal\/none\@xs {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.margin\/horizontal\/$i\@xs {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.margin\/horizontal\/none\@sm {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.margin\/horizontal\/$i\@sm {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.margin\/horizontal\/none\@md {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.margin\/horizontal\/$i\@md {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.margin\/horizontal\/none\@lg {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.margin\/horizontal\/$i\@lg {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.margin\/horizontal\/none\@xl {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.margin\/horizontal\/$i\@xl {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}

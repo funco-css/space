@@ -1,0 +1,15 @@
+@import "./top/short/index.css";
+@import "./bottom/short/index.css";
+@import "./left/short/index.css";
+@import "./right/short/index.css";
+@import "./vertical/short/index.css";
+@import "./horizontal/short/index.css";
+@import "./all/short/index.css";
+
+@import "./top/long/index.css";
+@import "./bottom/long/index.css";
+@import "./left/long/index.css";
+@import "./right/long/index.css";
+@import "./vertical/long/index.css";
+@import "./horizontal/long/index.css";
+@import "./all/long/index.css";

@@ -1,0 +1,69 @@
+.padding\/left\/none {
+	padding-left: 0;
+}
+
+@for $i from 0 to 10 {
+	.padding\/left\/$i {
+		padding-left: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.padding\/left\/none\@xs {
+		padding-left: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.padding\/left\/$i\@xs {
+			padding-left: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.padding\/left\/none\@sm {
+		padding-left: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.padding\/left\/$i\@sm {
+			padding-left: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.padding\/left\/none\@md {
+		padding-left: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.padding\/left\/$i\@md {
+			padding-left: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.padding\/left\/none\@lg {
+		padding-left: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.padding\/left\/$i\@lg {
+			padding-left: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.padding\/left\/none\@xl {
+		padding-left: 0;
+	}
+
+	@for $i from 0 to 10 {
+		.padding\/left\/$i\@xl {
+			padding-left: var(--funco-space-$i);
+		}
+	}
+}

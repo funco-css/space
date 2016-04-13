@@ -1,0 +1,82 @@
+.mg\/h\/n {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@for $i from -5 to 10 {
+	.mg\/h\/$i {
+		margin-left: var(--funco-space-$i);
+		margin-right: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.mg\/h\/n\@xs {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/h\/$i\@xs {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.mg\/h\/n\@sm {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/h\/$i\@sm {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.mg\/h\/n\@md {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/h\/$i\@md {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.mg\/h\/n\@lg {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/h\/$i\@lg {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.mg\/h\/n\@xl {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.mg\/h\/$i\@xl {
+			margin-left: var(--funco-space-$i);
+			margin-right: var(--funco-space-$i);
+		}
+	}
+}
+

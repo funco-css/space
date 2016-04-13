@@ -1,0 +1,69 @@
+.margin\/top\/none {
+	margin-top: 0;
+}
+
+@for $i from 1 to 10 {
+	.margin\/top\/$i {
+		margin-top: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.margin\/top\/none\@xs {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@xs {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.margin\/top\/none\@sm {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@sm {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.margin\/top\/none\@md {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@md {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.margin\/top\/none\@lg {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@lg {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.margin\/top\/none\@xl {
+		margin-top: 0;
+	}
+
+	@for $i from 1 to 10 {
+		.margin\/top\/$i\@xl {
+			margin-top: var(--funco-space-$i);
+		}
+	}
+}

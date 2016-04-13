@@ -1,0 +1,72 @@
+.pd\/r\/n {
+	padding-right: none;
+}
+
+@for $i from 0 to 10 {
+	.pd\/r\/$i {
+		padding-right: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.pd\/r\/n\@xs {
+		padding-right: none;
+	}
+
+	@for $i from 0 to 10 {
+		.pd\/r\/$i\@xs {
+			padding-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.pd\/r\/n\@sm {
+		padding-right: none;
+	}
+
+	@for $i from 0 to 10 {
+		.pd\/r\/$i\@sm {
+			padding-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.pd\/r\/n\@md {
+		padding-right: none;
+	}
+
+	@for $i from 0 to 10 {
+		.pd\/r\/$i\@md {
+			padding-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.pd\/r\/n\@lg {
+		padding-right: none;
+	}
+
+	@for $i from 0 to 10 {
+		.pd\/r\/$i\@lg {
+			padding-right: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.pd\/r\/n\@xl {
+		padding-right: none;
+	}
+
+	@for $i from 0 to 10 {
+		.pd\/r\/$i\@xl {
+			padding-right: var(--funco-space-$i);
+		}
+	}
+}
+
+
+
