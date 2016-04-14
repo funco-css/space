@@ -2,7 +2,7 @@
 	margin-left: 0;
 }
 
-@for $i from 0 to 10 {
+@for $i from -5 to 10 {
 	.mg\/l\/$i {
 		margin-left: var(--funco-space-$i);
 	}
@@ -13,7 +13,7 @@
 		margin-left: 0;
 	}
 
-	@for $i from 0 to 10 {
+	@for $i from -5 to 10 {
 		.mg\/l\/$i\@xs {
 			margin-left: var(--funco-space-$i);
 		}
@@ -25,7 +25,7 @@
 		margin-left: 0;
 	}
 
-	@for $i from 0 to 10 {
+	@for $i from -5 to 10 {
 		.mg\/l\/$i\@sm {
 			margin-left: var(--funco-space-$i);
 		}
@@ -37,7 +37,7 @@
 		margin-left: 0;
 	}
 
-	@for $i from 0 to 10 {
+	@for $i from -5 to 10 {
 		.mg\/l\/$i\@md {
 			margin-left: var(--funco-space-$i);
 		}
@@ -49,7 +49,7 @@
 		margin-left: 0;
 	}
 
-	@for $i from 0 to 10 {
+	@for $i from -5 to 10 {
 		.mg\/l\/$i\@lg {
 			margin-left: var(--funco-space-$i);
 		}
@@ -61,7 +61,7 @@
 		margin-left: 0;
 	}
 
-	@for $i from 0 to 10 {
+	@for $i from -5 to 10 {
 		.mg\/l\/$i\@xl {
 			margin-left: var(--funco-space-$i);
 		}
