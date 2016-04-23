@@ -1,81 +1,81 @@
-.mg\/v\/n {
-	margin-bottom: 0;
-	margin-top: 0;
+.pd\/v\/n {
+	padding-bottom: 0;
+	padding-top: 0;
 }
 
 @for $i from 0 to 10 {
-	.mg\/v\/$i {
-		margin-bottom: var(--funco-space-$i);
-		margin-top: var(--funco-space-$i);
+	.pd\/v\/$i {
+		padding-bottom: var(--funco-space-$i);
+		padding-top: var(--funco-space-$i);
 	}
 }
 
 @media (--mq-xs) {
-	.mg\/v\/n\@xs {
-		margin-bottom: 0;
-		margin-top: 0;
+	.pd\/v\/n\@xs {
+		padding-bottom: 0;
+		padding-top: 0;
 	}
 
 	@for $i from 0 to 10 {
-		.mg\/v\/$i\@xs {
-			margin-bottom: var(--funco-space-$i);
-			margin-top: var(--funco-space-$i);
+		.pd\/v\/$i\@xs {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-sm) {
-	.mg\/v\/n\@sm {
-		margin-bottom: 0;
-		margin-top: 0;
+	.pd\/v\/n\@sm {
+		padding-bottom: 0;
+		padding-top: 0;
 	}
 
 	@for $i from 0 to 10 {
-		.mg\/v\/$i\@sm {
-			margin-bottom: var(--funco-space-$i);
-			margin-top: var(--funco-space-$i);
+		.pd\/v\/$i\@sm {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-md) {
-	.mg\/v\/n\@md {
-		margin-bottom: 0;
-		margin-top: 0;
+	.pd\/v\/n\@md {
+		padding-bottom: 0;
+		padding-top: 0;
 	}
 
 	@for $i from 0 to 10 {
-		.mg\/v\/$i\@md {
-			margin-bottom: var(--funco-space-$i);
-			margin-top: var(--funco-space-$i);
+		.pd\/v\/$i\@md {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-lg) {
-	.mg\/v\/n\@lg {
-		margin-bottom: 0;
-		margin-top: 0;
+	.pd\/v\/n\@lg {
+		padding-bottom: 0;
+		padding-top: 0;
 	}
 
 	@for $i from 0 to 10 {
-		.mg\/v\/$i\@lg {
-			margin-bottom: var(--funco-space-$i);
-			margin-top: var(--funco-space-$i);
+		.pd\/v\/$i\@lg {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-xl) {
-	.mg\/v\/n\@xl {
-		margin-bottom: 0;
-		margin-top: 0;
+	.pd\/v\/n\@xl {
+		padding-bottom: 0;
+		padding-top: 0;
 	}
 
 	@for $i from 0 to 10 {
-		.mg\/v\/$i\@xl {
-			margin-bottom: var(--funco-space-$i);
-			margin-top: var(--funco-space-$i);
+		.pd\/v\/$i\@xl {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
 		}
 	}
 }
