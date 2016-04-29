@@ -2,7 +2,7 @@
 	padding-top: 0;
 }
 
-@for $i from 1 to 10 {
+@for $i from -5 to 10 {
 	.pd\/t\/$i {
 		padding-top: var(--funco-space-$i);
 	}
@@ -13,7 +13,7 @@
 		padding-top: 0;
 	}
 
-	@for $i from 1 to 10 {
+	@for $i from -5 to 10 {
 		.padding\/top\/$i\@xs {
 			padding-top: var(--funco-space-$i);
 		}
@@ -28,7 +28,7 @@
 		padding-top: 0;
 	}
 
-	@for $i from 1 to 10 {
+	@for $i from -5 to 10 {
 		.padding\/top\/$i\@sm {
 			padding-top: var(--funco-space-$i);
 		}
@@ -43,7 +43,7 @@
 		padding-top: 0;
 	}
 
-	@for $i from 1 to 10 {
+	@for $i from -5 to 10 {
 		.padding\/top\/$i\@md {
 			padding-top: var(--funco-space-$i);
 		}
@@ -58,7 +58,7 @@
 		padding-top: 0;
 	}
 
-	@for $i from 1 to 10 {
+	@for $i from -5 to 10 {
 		.padding\/top\/$i\@lg {
 			padding-top: var(--funco-space-$i);
 		}
@@ -73,7 +73,7 @@
 		padding-top: 0;
 	}
 
-	@for $i from 1 to 10 {
+	@for $i from -5 to 10 {
 		.padding\/top\/$i\@xl {
 			padding-top: var(--funco-space-$i);
 		}
