@@ -1,7 +1,81 @@
-@import "../top/long/index.css";
-@import "../bottom/long/index.css";
-@import "../left/long/index.css";
-@import "../right/long/index.css";
-@import "../vertical/long/index.css";
-@import "../horizontal/long/index.css";
-@import "../all/long/index.css";
+.pd\/v\/n {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+@for $i from -5 to 10 {
+	.pd\/v\/$i {
+		padding-bottom: var(--funco-space-$i);
+		padding-top: var(--funco-space-$i);
+	}
+}
+
+@media (--mq-xs) {
+	.pd\/v\/n\@xs {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.pd\/v\/$i\@xs {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-sm) {
+	.pd\/v\/n\@sm {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.pd\/v\/$i\@sm {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-md) {
+	.pd\/v\/n\@md {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.pd\/v\/$i\@md {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-lg) {
+	.pd\/v\/n\@lg {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.pd\/v\/$i\@lg {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
+		}
+	}
+}
+
+@media (--mq-xl) {
+	.pd\/v\/n\@xl {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	@for $i from -5 to 10 {
+		.pd\/v\/$i\@xl {
+			padding-bottom: var(--funco-space-$i);
+			padding-top: var(--funco-space-$i);
+		}
+	}
+}
