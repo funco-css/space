@@ -1,81 +1,81 @@
 .mg\/v\/n {
-	padding-bottom: 0;
-	padding-top: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 @for $i from -5 to 10 {
 	.mg\/v\/$i {
-		padding-bottom: var(--funco-space-$i);
-		padding-top: var(--funco-space-$i);
+		margin-bottom: var(--funco-space-$i);
+		margin-top: var(--funco-space-$i);
 	}
 }
 
 @media (--mq-xs) {
 	.mg\/v\/n\@xs {
-		padding-bottom: 0;
-		padding-top: 0;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 
 	@for $i from -5 to 10 {
 		.mg\/v\/$i\@xs {
-			padding-bottom: var(--funco-space-$i);
-			padding-top: var(--funco-space-$i);
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-sm) {
 	.mg\/v\/n\@sm {
-		padding-bottom: 0;
-		padding-top: 0;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 
 	@for $i from -5 to 10 {
 		.mg\/v\/$i\@sm {
-			padding-bottom: var(--funco-space-$i);
-			padding-top: var(--funco-space-$i);
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-md) {
 	.mg\/v\/n\@md {
-		padding-bottom: 0;
-		padding-top: 0;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 
 	@for $i from -5 to 10 {
 		.mg\/v\/$i\@md {
-			padding-bottom: var(--funco-space-$i);
-			padding-top: var(--funco-space-$i);
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-lg) {
 	.mg\/v\/n\@lg {
-		padding-bottom: 0;
-		padding-top: 0;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 
 	@for $i from -5 to 10 {
 		.mg\/v\/$i\@lg {
-			padding-bottom: var(--funco-space-$i);
-			padding-top: var(--funco-space-$i);
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
 		}
 	}
 }
 
 @media (--mq-xl) {
 	.mg\/v\/n\@xl {
-		padding-bottom: 0;
-		padding-top: 0;
+		margin-bottom: 0;
+		margin-top: 0;
 	}
 
 	@for $i from -5 to 10 {
 		.mg\/v\/$i\@xl {
-			padding-bottom: var(--funco-space-$i);
-			padding-top: var(--funco-space-$i);
+			margin-bottom: var(--funco-space-$i);
+			margin-top: var(--funco-space-$i);
 		}
 	}
 }
