@@ -1,6 +1,6 @@
 {
   "name": "funco-space",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Spacing utilities with functional style",
   "main": "index.css",
   "style": "index.css",
